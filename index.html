@@ -1,32 +1,58 @@
----
-layout: default
----
+<h1>黄梓烨</h1>
 
-<main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    <div id="grid" class="row flex-grid">
-    {% for post in site.posts %}
-        <article class="box-item post-{{post.main-class}}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-            <span class="ribbon">
-                <a href="{{site.url}}{{site.baseurl}}/category/{{post.main-class}}"><span>{{post.main-class}}</span></a>
-            </span>
-            <div class="box-body">
-                <meta itemprop="datePublished" content="{{post.date | date_to_xmlschema }}">
-                <time itemprop="datePublished" datetime="{{ post.date }}" class="date">{{ post.date | date_to_string }}</time>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                    <h2 class="post-title" itemprop="name">
-                        {{ post.title }}
-                    </h2>
-                </a>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                    <p class="description">{{ post.introduction }}</p>
-                </a>
-                <div class="tags">
-                    {% for tag in post.tags %}
-                        <a href="{{site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
-                    {% endfor %}
-                </div>
-            </div>
-        </article>
-    {% endfor %}
-    </div>
-</main>
+<p>
+香港中文大学（深圳）英语专业（法律方向）大四本科生。
+关注法律与商业问题的结构化分析，以及AI工具在知识工作的应用。
+</p>
+
+<p>
+我对复杂问题拆解、法律与商业分析、以及AI辅助研究与工作流程设计
+有长期兴趣，并通过模拟法庭、研究项目与实践探索不断提升相关能力。
+</p>
+
+<h2>📌 项目与经历</h2>
+
+<ul>
+
+<li>
+<a href="/2026/03/09/complex-problem-solving.html">
+🧠 复杂问题解决｜国际模拟法庭经历
+</a>
+</li>
+
+<li>
+<a href="/2026/03/09/legal-analysis.html">
+⚖️ 法律与商业分析能力
+</a>
+</li>
+
+<li>
+<a href="/2026/03/09/ai-workflow.html">
+🤖 AI辅助工作流探索
+</a>
+</li>
+
+<li>
+<a href="/2026/03/09/research-project.html">
+📊 比较法研究项目：ROPA家庭法律问题
+</a>
+</li>
+
+</ul>
+
+<h2>🔍 研究兴趣</h2>
+
+<ul>
+
+<li>中英文法律检索与法律研究</li>
+<li>法律与商业问题的结构化分析</li>
+<li>比较法研究</li>
+<li>AI在知识工作中的应用</li>
+
+</ul>
+
+<h2>📫 联系方式: 13860187187</h2>
+
+<p>
+Email: ziyehuang9493@gmail.com
+</p>
